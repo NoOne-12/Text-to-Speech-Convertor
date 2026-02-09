@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Upgraded Text to Speech Converter</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🗣️ Text to Speech Converter</h1>
+
+    <textarea id="text-input" rows="6" placeholder="Enter text here..."></textarea>
+
+    <div class="controls">
+      <label for="voice-select">Voice:</label>
+      <select id="voice-select"></select>
+
+      <label for="rate">Speed:</label>
+      <input type="range" id="rate" min="0.5" max="2" value="1" step="0.1">
+
+      <label for="pitch">Pitch:</label>
+      <input type="range" id="pitch" min="0" max="2" value="1" step="0.1">
+    </div>
+
+    <div class="buttons">
+      <button id="speak-btn">🔊 Speak</button>
+      <button id="download-btn">💾 Download Audio</button>
+    </div>
+
+    <div class="history">
+      <h3>Text History</h3>
+      <ul id="history-list"></ul>
+    </div>
+
+    <div class="schedule">
+      <label for="schedule-time">Schedule (seconds):</label>
+      <input type="number" id="schedule-time" min="1" placeholder="5">
+      <button id="schedule-btn">⏰ Schedule Speech</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
