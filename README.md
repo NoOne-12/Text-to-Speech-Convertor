@@ -1,4 +1,4 @@
-# 🗣️ Upgraded Text-to-Speech (Voice Converter)
+# 🗣️ Text-to-Speech (Voice Converter)
 
 A **modern Text-to-Speech web app** built using **HTML, CSS, and JavaScript**, utilizing the browser’s **Speech Synthesis API**.  
 This upgraded version includes **voice selection, speed/pitch control, text history, scheduled playback, Enter key speech, and audio download**.
@@ -19,7 +19,7 @@ This upgraded version includes **voice selection, speed/pitch control, text hist
 
 ## 📂 Project Structure
 
-ext-to-speech/
+Text-to-speech/
 │
 ├── index.html # Main HTML structure
 ├── styles.css # Styling for the layout and controls
